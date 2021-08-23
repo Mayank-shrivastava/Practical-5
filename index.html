@@ -5,107 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Map</title>
-    <link rel="stylesheet" href="style.css">
     <style>
-      .content {
-        text-align: center;
-        margin-top: 0px;
-        font-size: 18px;
-      }
-      img {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-      }
-      img[usemap],
-      map area {
-        outline: none;
-      }
-      body {
-        background-color: lightgray;
-      }
-      h2 {
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+        body{
+            background-color: rgb(197, 197, 197);
+        }
     </style>
-  </head>
-  <body>
-    <div class="menu">
-      <img
-        src="/assests/menu.jpg"
-        alt=""
-        width="1184"
-        height="78"
-        usemap="#map1"
-      />
+</head>
+<body>
+    <div>
+        <img src="./assests/menu.jpg" alt="" width="1200" style="border: 0px; margin-left: 65px;" 
+        usemap="#map1" >
     </div>
     <map name="map1">
-      <area
-        shape="rect"
-        coords="11,13,120,62"
-        href="/practicalFiles/practical-4.html"
-        target="_blank"
-        alt="Home Page"
-      />
-      <area
-        shape="rect"
-        coords="133,13,316,62"
-        href="practicalFiles/practical-1.html"
-        target="_blank"
-        alt="Practical-1"
-      />
-      <area
-        shape="rect"
-        coords="330, 13, 538,68"
-        href="practicalFiles/practical-2.html"
-        target="_blank"
-        alt="Practical-2"
-      />
-      <area
-        shape="rect"
-        coords="546, 14, 746, 65"
-        href="practicalFiles/practical-3.html"
-        target="_blank"
-        alt="Practical-3"
-      />
-      <area
-        shape="rect"
-        coords="758,12, 959,67"
-        href="practicalFiles/practical-4.html"
-        target="_blank"
-        alt="Practical-4"
-      />
-      <area
-        shape="rect"
-        coords="969,14,1172,66"
-        href="#"
-        target="_blank"
-        alt="Practical-5"
-      />
+        <area shape="rect" coords="11,13,120,62" href="./practicalFiles/practical-4.html" target="_blank" alt="Home Page">
+        <area shape="rect" coords="133,13,316,62" href="./practicalFiles/practical-1.html" target="_blank" alt="Practical-1">
+        <area shape="rect" coords="330,13,538,68" href="./practicalFiles/practical-2.html" target="_blank" alt="Practical-2">
+        <area shape="rect" coords="546,14,746,65" href="./practicalFiles/practical-3.html" target="_blank" alt="Practical-3">
+        <area shape="rect" coords="758,12,959,67" href="./practicalFiles/practical-4.html" target="_blank" alt="Practical-4">
+        <area shape="rect" coords="969,14,1172,66" href="#" target="_blank" alt="Practical-5">
     </map>
-
-    <div class="content">
-      <h2>Introduction to Front-End Technologies</h2>
-      <img
-        src="/assests/Practical-5.jpg"
-        width="400"
-        height="350"
-        alt="cannot load image"
-        usemap="#map2"
-      />
-      <map name="map2">
-        <area shape="rect" coords="20,10,171,167" target="_blank"
-        href="/practicalFiles/practical-5-html.html"  alt="HTML"> <area shape="circle"
-        coords="290,95,100" target="_blank" href="/practicalFiles/practical-5-css.html" 
-        alt="CSS"> <area shape="rect" coords="24,197,168,336" target="_blank"
-        href="practicalFiles/practical-5-jq.html"  alt="JQuery"> <area shape="poly"
-        coords="287,203,347,223,337,300,288,328,240,300,231,224" target="_blank"
-        href="practicalFiles/practical-5-bootstrap.html"  alt="Bootstrap">
-      </map>
-      <p style="color: red">
-        Click on any part of logo to know more about these technologies.
-      </p>
+    <div>
+        <h2 style="text-align: center; color: white;">Introduction to Front-end Technologies</h2>
+        <img src="./assests/Practical-5.jpg" alt="" style="display: block; margin-left: auto; margin-right: auto;" usemap="#map2">
     </div>
-  </body>
+    <map name="map2">
+        <area shape="rect" coords="20,10,171,167" href="./practicalFiles/practical-5-html.html" alt="HTML">
+        <area shape="circle" coords="290,95,100" href="./practicalFiles/practical-5-css.html" alt="CSS">
+        <area shape="" coords="24,197,168,336" href="./practicalFiles/practical-5-js.html" alt="JAVASCRIPT">
+        <area shape="poly" coords="287,203,347,223,337,300,288,328240,300,231,224" href="./practicalFiles/practical-5-bootstrap.html" alt="BOOTSTRAP">
+    </map>
+    <p style="text-align: center; color: red;">Click on any part of logo to know more about these technologies.</p>
+</body>
 </html>
